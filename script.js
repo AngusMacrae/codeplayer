@@ -3,6 +3,13 @@ let cssVis = true;
 let jsVis = true;
 let outputVis = true;
 
+$("textarea").on('change keyup paste', function() {
+    
+    $("#output").contents().find("html").html($("#html-input").val());
+    
+});
+
+
 $("#html-toggle").click(function() {
     
     if (htmlVis) {
@@ -30,7 +37,7 @@ $("#css-toggle").click(function() {
         
         $("#css-panel").show();
         cssVis = true;
-        
+
     }
     
 });
