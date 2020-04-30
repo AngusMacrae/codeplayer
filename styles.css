@@ -19,13 +19,19 @@ body {
     
     background-color: lightgray;
     padding: 5px;
+    display: flex;
     
 }
 
-h1 {
+#logo-container {
     
-    margin: 0;
-    display: inline-block;
+    margin: 0 15px 0 0;
+    
+}
+
+#spacer {
+    
+    width: 100px;
     
 }
 
@@ -48,15 +54,16 @@ main {
 
 #tab-toggle-wrapper {
     
-    margin: 0 0 0 100px;
-    display: inline-block;
+    width: 320px;
+    min-width: 320px;
+    margin: 0 auto;
     position: relative;
-    bottom: 4px;
+    top: 2px;
     
 }
 
 textarea,
-#output-panel div {
+iframe {
     
     width: 100%;
     resize: none;
