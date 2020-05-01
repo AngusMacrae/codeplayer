@@ -25,13 +25,13 @@ body {
 
 #logo-container {
     
-    margin: 0;
+    margin: 0 20px 0 0;
     
 }
 
 #spacer {
     
-    width: 176px;
+    width: 196px;
     
 }
 
@@ -54,11 +54,9 @@ main {
 
 #tab-toggle-wrapper {
     
-    width: 320px;
+    width: 400px;
     min-width: 320px;
     margin: 0 auto;
-    position: relative;
-    top: 2px;
     
 }
 
