@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodePlayer</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="../jquery-ui-1.12.1/jquery-ui.css">
-    <script type="text/javascript" src="../jquery.js"></script>
-    <script type="text/javascript" src="../jquery-ui-1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery-ui.js"></script>
     </head>
 
 <body>
@@ -28,15 +28,15 @@
     <main>
     
         <div id="html-panel" class="panel">
-            <textarea id="html-input">enter html</textarea>
+            <textarea id="html-input"><p id="paragraph">Hello World!</p></textarea>
         </div>
 
         <div id="css-panel" class="panel">
-            <textarea id="css-input">enter css</textarea>
+            <textarea id="css-input">p {color: red}</textarea>
         </div>
         
         <div id="js-panel" class="panel">
-            <textarea id="js-input">enter js</textarea>
+            <textarea id="js-input">document.getElementById("paragraph").innerHTML = "Goodbye World!";</textarea>
         </div>
         
         <div id="output-panel" class="panel">
